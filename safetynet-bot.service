@@ -1,0 +1,15 @@
+[Unit]
+Description=SafetyNet DCA Bot (Bybit)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_VPS_USERNAME
+WorkingDirectory=/home/YOUR_VPS_USERNAME/safetynet-bot
+ExecStart=/home/YOUR_VPS_USERNAME/safetynet-bot/venv/bin/python3 bot.py
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

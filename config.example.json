@@ -1,0 +1,25 @@
+{
+  "mode": "paper",
+  "paper_fee_pct": 0.1,
+  "api_key": "ONLY_NEEDED_FOR_LIVE_MODE",
+  "api_secret": "ONLY_NEEDED_FOR_LIVE_MODE",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "total_capital_usdt": 1000,
+  "per_deal_budget_pct": 3.0,
+  "max_concurrent_deals": 2,
+  "take_profit_pct": 1.5,
+  "stop_loss_pct": 12.0,
+  "max_safety_orders": 4,
+  "safety_order_deviation_pct": 1.5,
+  "safety_order_step_scale": 1.4,
+  "safety_order_volume_scale": 1.5,
+  "first_safety_order_multiplier": 1.0,
+  "max_drawdown_pct": 10.0,
+  "poll_interval_sec": 30,
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
+  "testnet": true
+}

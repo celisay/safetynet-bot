@@ -133,8 +133,19 @@ class SafetyNetBot:
         return self.instrument_cache[symbol]
 
     def price(self, symbol):
-        r = self.session.get_tickers(category="spot", symbol=symbol)
-        return float(r["result"]["list"][0]["lastPrice"])
+        # Try Bybit first; fall back to Coinbase (works from US-based
+        # servers like GitHub Actions runners, where Bybit geo-blocks).
+        try:
+            r = self.session.get_tickers(category="spot", symbol=symbol)
+            return float(r["result"]["list"][0]["lastPrice"])
+        except Exception as e:
+            log.warning("Bybit price failed (%s); trying Coinbase", e)
+        base = symbol.replace("USDT", "").replace("USD", "")
+        resp = requests.get(
+            f"https://api.coinbase.com/v2/prices/{base}-USD/spot",
+            timeout=10)
+        resp.raise_for_status()
+        return float(resp.json()["data"]["amount"])
 
     def market_buy_quote(self, symbol, usdt_amount):
         """Market buy spending a USDT amount. Returns (qty, avg_price)."""

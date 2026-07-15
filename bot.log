@@ -624,3 +624,19 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-07-15 11:57:12,327 [INFO] ETHUSDT px=1883.1100 avg=1869.1100 tp=1897.1466 sl=1644.8168 next_so=1841.0733 (SO 0/4)
 2026-07-15 11:57:12,327 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-07-15 13:47:53,323 [INFO] === CAPITAL RULES ===
+2026-07-15 13:47:53,323 [INFO] Total capital: 1000.00 USDT
+2026-07-15 13:47:53,323 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-07-15 13:47:53,323 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-07-15 13:47:53,323 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-07-15 13:47:53,323 [INFO] Max total exposure: 6.0% of capital
+2026-07-15 13:47:53,387 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 13:47:53).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-07-15 13:47:53,461 [INFO] BTCUSDT px=64985.5750 avg=64409.9950 tp=65376.1449 sl=56680.7956 next_so=63443.8451 (SO 0/4)
+2026-07-15 13:47:53,465 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 13:47:53).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-07-15 13:47:53,516 [INFO] ETHUSDT px=1921.3900 avg=1869.1100 tp=1897.1466 sl=1644.8168 next_so=1841.0733 (SO 0/4)
+2026-07-15 13:47:53,520 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 13:47:53).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-07-15 13:47:53,558 [INFO] NOTIFY: ✅ CLOSED ETHUSDT (take_profit): PnL +0.09 USDT | Cumulative: +0.47 USDT
+2026-07-15 13:47:53,997 [INFO] Single tick complete (GitHub Actions mode). State saved.

@@ -3,24 +3,24 @@
     "BTCUSDT": {
       "symbol": "BTCUSDT",
       "opened_at": "2026-07-14T17:34:37+00:00",
-      "qty": 5.1027949932304764e-05,
-      "spent": 3.2867100000000002,
-      "avg_entry": 64409.995,
-      "last_fill_price": 64409.995,
-      "safety_orders_used": 0,
-      "next_so_deviation_pct": 1.5,
-      "next_so_usdt": 3.29
+      "qty": 0.00010293868055225367,
+      "spent": 6.5734200000000005,
+      "avg_entry": 63857.628296131166,
+      "last_fill_price": 63314.655,
+      "safety_orders_used": 1,
+      "next_so_deviation_pct": 2.0999999999999996,
+      "next_so_usdt": 4.9350000000000005
     },
     "ETHUSDT": {
       "symbol": "ETHUSDT",
       "opened_at": "2026-07-15T15:24:44+00:00",
-      "qty": 0.0034508043858844993,
-      "spent": 6.5734200000000005,
-      "avg_entry": 1904.8949940160467,
-      "last_fill_price": 1885.575,
-      "safety_orders_used": 1,
-      "next_so_deviation_pct": 2.0999999999999996,
-      "next_so_usdt": 4.9350000000000005
+      "qty": 0.006121963561574562,
+      "spent": 11.503485000000001,
+      "avg_entry": 1879.051530493154,
+      "last_fill_price": 1845.665,
+      "safety_orders_used": 2,
+      "next_so_deviation_pct": 2.9399999999999995,
+      "next_so_usdt": 7.402500000000001
     }
   },
   "realized_pnl": 0.4675475157206854,
@@ -57,5 +57,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 990.5810975157209
+  "paper_usdt": 982.356097515721
 }

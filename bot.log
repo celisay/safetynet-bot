@@ -9724,3 +9724,20 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ET
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-08-19 21:59:48,295 [INFO] NOTIFY: 🟢 OPENED ETHUSDT deal: 0.001440 @ 2283.0850 (3.29 USDT)
 2026-08-19 21:59:48,604 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-08-19 22:33:02,805 [INFO] === CAPITAL RULES ===
+2026-08-19 22:33:02,805 [INFO] Total capital: 1000.00 USDT
+2026-08-19 22:33:02,805 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-08-19 22:33:02,805 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-08-19 22:33:02,805 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-08-19 22:33:02,805 [INFO] Max total exposure: 6.0% of capital
+2026-08-19 22:33:02,934 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:33:02).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-19 22:33:02,983 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:33:02).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-19 22:33:03,026 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:33:03).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-19 22:33:03,073 [INFO] NOTIFY: 🟢 OPENED BTCUSDT deal: 0.000048 @ 69081.8750 (3.29 USDT)
+2026-08-19 22:33:03,913 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:33:03).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-19 22:33:03,953 [INFO] ETHUSDT px=2252.8450 avg=2283.0850 tp=2317.3313 sl=2009.1148 next_so=2248.8387 (SO 0/4)
+2026-08-19 22:33:03,953 [INFO] Single tick complete (GitHub Actions mode). State saved.

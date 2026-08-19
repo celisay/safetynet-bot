@@ -9655,3 +9655,19 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-08-19 19:58:33,347 [INFO] ETHUSDT px=2104.4350 avg=2083.1550 tp=2114.4023 sl=1833.1764 next_so=2051.9077 (SO 0/4)
 2026-08-19 19:58:33,348 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-08-19 20:34:44,309 [INFO] === CAPITAL RULES ===
+2026-08-19 20:34:44,309 [INFO] Total capital: 1000.00 USDT
+2026-08-19 20:34:44,309 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-08-19 20:34:44,309 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-08-19 20:34:44,309 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-08-19 20:34:44,309 [INFO] Max total exposure: 6.0% of capital
+2026-08-19 20:34:44,475 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 20:34:44).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-19 20:34:44,584 [INFO] BTCUSDT px=68751.7550 avg=68562.9300 tp=69591.3739 sl=60335.3784 next_so=67534.4860 (SO 0/4)
+2026-08-19 20:34:44,595 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 20:34:44).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-19 20:34:44,704 [INFO] ETHUSDT px=2126.2100 avg=2083.1550 tp=2114.4023 sl=1833.1764 next_so=2051.9077 (SO 0/4)
+2026-08-19 20:34:44,715 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 20:34:44).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-19 20:34:44,818 [INFO] NOTIFY: ✅ CLOSED ETHUSDT (take_profit): PnL +0.06 USDT | Cumulative: +1.83 USDT
+2026-08-19 20:34:45,262 [INFO] Single tick complete (GitHub Actions mode). State saved.

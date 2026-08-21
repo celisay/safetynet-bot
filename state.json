@@ -10,6 +10,17 @@
       "safety_orders_used": 0,
       "next_so_deviation_pct": 1.5,
       "next_so_usdt": 3.29
+    },
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "opened_at": "2026-08-21T03:35:18+00:00",
+      "qty": 4.405115826771596e-05,
+      "spent": 3.2867100000000002,
+      "avg_entry": 74611.205,
+      "last_fill_price": 74611.205,
+      "safety_orders_used": 0,
+      "next_so_deviation_pct": 1.5,
+      "next_so_usdt": 3.29
     }
   },
   "realized_pnl": 2.3517148337805582,
@@ -186,5 +197,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 998.9646598337816
+  "paper_usdt": 995.6746598337817
 }

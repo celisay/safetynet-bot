@@ -10719,3 +10719,20 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ET
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-08-21 22:20:35,936 [INFO] NOTIFY: ✅ CLOSED ETHUSDT (take_profit): PnL +0.07 USDT | Cumulative: +2.80 USDT
 2026-08-21 22:20:36,452 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-08-21 22:49:57,271 [INFO] === CAPITAL RULES ===
+2026-08-21 22:49:57,271 [INFO] Total capital: 1000.00 USDT
+2026-08-21 22:49:57,272 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-08-21 22:49:57,272 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-08-21 22:49:57,272 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-08-21 22:49:57,272 [INFO] Max total exposure: 6.0% of capital
+2026-08-21 22:49:57,330 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:49:57).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-21 22:49:57,373 [INFO] BTCUSDT px=78324.3450 avg=77924.9950 tp=79093.8699 sl=68573.9956 next_so=76756.1201 (SO 0/4)
+2026-08-21 22:49:57,377 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:49:57).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-21 22:49:57,422 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:49:57).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-21 22:49:57,467 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:49:57).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-21 22:49:57,510 [INFO] NOTIFY: 🟢 OPENED ETHUSDT deal: 0.001305 @ 2519.1350 (3.29 USDT)
+2026-08-21 22:49:58,050 [INFO] Single tick complete (GitHub Actions mode). State saved.

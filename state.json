@@ -1,5 +1,28 @@
 {
-  "deals": {},
+  "deals": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "opened_at": "2026-08-24T12:03:04+00:00",
+      "qty": 4.199952770322179e-05,
+      "spent": 3.2867100000000002,
+      "avg_entry": 78255.88,
+      "last_fill_price": 78255.88,
+      "safety_orders_used": 0,
+      "next_so_deviation_pct": 1.5,
+      "next_so_usdt": 3.29
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "opened_at": "2026-08-24T12:03:05+00:00",
+      "qty": 0.0013213302913655687,
+      "spent": 3.2867100000000002,
+      "avg_entry": 2487.425,
+      "last_fill_price": 2487.425,
+      "safety_orders_used": 0,
+      "next_so_deviation_pct": 1.5,
+      "next_so_usdt": 3.29
+    }
+  },
   "realized_pnl": 3.143999713370631,
   "closed_deals": [
     {
@@ -264,5 +287,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 1003.005819713372
+  "paper_usdt": 996.4258197133721
 }

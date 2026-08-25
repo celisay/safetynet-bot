@@ -12754,3 +12754,16 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-08-25 21:52:54,032 [INFO] ETHUSDT px=2441.4750 avg=2463.8181 tp=2500.7753 sl=2168.1599 next_so=2389.4012 (SO 1/4)
 2026-08-25 21:52:54,033 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-08-25 22:22:32,054 [INFO] === CAPITAL RULES ===
+2026-08-25 22:22:32,054 [INFO] Total capital: 1000.00 USDT
+2026-08-25 22:22:32,055 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-08-25 22:22:32,055 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-08-25 22:22:32,055 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-08-25 22:22:32,055 [INFO] Max total exposure: 6.0% of capital
+2026-08-25 22:22:32,161 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:22:32).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-08-25 22:22:32,274 [INFO] BTCUSDT px=78835.6750 avg=79924.8893 tp=81123.7627 sl=70333.9026 next_so=77595.4862 (SO 1/4)
+2026-08-25 22:22:32,278 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 22:22:32).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-08-25 22:22:32,353 [INFO] ETHUSDT px=2447.1550 avg=2463.8181 tp=2500.7753 sl=2168.1599 next_so=2389.4012 (SO 1/4)
+2026-08-25 22:22:32,353 [INFO] Single tick complete (GitHub Actions mode). State saved.

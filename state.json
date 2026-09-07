@@ -10,6 +10,17 @@
       "safety_orders_used": 1,
       "next_so_deviation_pct": 2.0999999999999996,
       "next_so_usdt": 4.9350000000000005
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "opened_at": "2026-09-07T07:57:02+00:00",
+      "qty": 0.0013206772332846456,
+      "spent": 3.2867100000000002,
+      "avg_entry": 2488.655,
+      "last_fill_price": 2488.655,
+      "safety_orders_used": 0,
+      "next_so_deviation_pct": 1.5,
+      "next_so_usdt": 3.29
     }
   },
   "realized_pnl": 4.000862857778264,
@@ -346,5 +357,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 997.2382678577803
+  "paper_usdt": 993.9482678577804
 }

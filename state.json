@@ -1,29 +1,6 @@
 {
-  "deals": {
-    "BTCUSDT": {
-      "symbol": "BTCUSDT",
-      "opened_at": "2026-09-21T17:55:34+00:00",
-      "qty": 7.735458554508688e-05,
-      "spent": 6.5734200000000005,
-      "avg_entry": 84977.76768732886,
-      "last_fill_price": 84246.825,
-      "safety_orders_used": 1,
-      "next_so_deviation_pct": 2.0999999999999996,
-      "next_so_usdt": 4.9350000000000005
-    },
-    "ETHUSDT": {
-      "symbol": "ETHUSDT",
-      "opened_at": "2026-09-21T17:55:35+00:00",
-      "qty": 0.0024345838961182757,
-      "spent": 6.5734200000000005,
-      "avg_entry": 2700.0178595121433,
-      "last_fill_price": 2665.06,
-      "safety_orders_used": 1,
-      "next_so_deviation_pct": 2.0999999999999996,
-      "next_so_usdt": 4.9350000000000005
-    }
-  },
-  "realized_pnl": 5.73708059197009,
+  "deals": {},
+  "realized_pnl": 5.945529460538167,
   "closed_deals": [
     {
       "symbol": "ETHUSDT",
@@ -434,8 +411,28 @@
       "pnl": 0.06902241486431082,
       "reason": "take_profit",
       "safety_orders_used": 0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "opened_at": "2026-09-21T17:55:34+00:00",
+      "closed_at": "2026-10-02T08:16:53+00:00",
+      "spent": 6.5734200000000005,
+      "proceeds": 6.679270060702917,
+      "pnl": 0.10585006070291669,
+      "reason": "take_profit",
+      "safety_orders_used": 1
+    },
+    {
+      "symbol": "ETHUSDT",
+      "opened_at": "2026-09-21T17:55:35+00:00",
+      "closed_at": "2026-10-02T08:16:54+00:00",
+      "spent": 6.5734200000000005,
+      "proceeds": 6.676018807865161,
+      "pnl": 0.10259880786516096,
+      "reason": "take_profit",
+      "safety_orders_used": 1
     }
   ],
   "halted": false,
-  "paper_usdt": 992.3418455919727
+  "paper_usdt": 1005.6971344605408
 }

@@ -16378,3 +16378,12 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-10-06 08:08:22,593 [INFO] ETHUSDT px=2713.3150 avg=2692.9483 tp=2733.3425 sl=2369.7945 next_so=2609.0105 (SO 1/4)
 2026-10-06 08:08:22,594 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-10-06 15:10:37,972 [INFO] === CAPITAL RULES ===
+2026-10-06 15:10:37,972 [INFO] Total capital: 1000.00 USDT
+2026-10-06 15:10:37,973 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-10-06 15:10:37,973 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-10-06 15:10:37,973 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-10-06 15:10:37,973 [INFO] Max total exposure: 6.0% of capital
+2026-10-06 15:10:38,450 [INFO] BTCUSDT px=86574.1000 avg=85659.4250 tp=86944.3164 sl=75380.2940 next_so=84374.5336 (SO 0/4)
+2026-10-06 15:10:38,698 [INFO] ETHUSDT px=2720.6400 avg=2692.9483 tp=2733.3425 sl=2369.7945 next_so=2609.0105 (SO 1/4)
+2026-10-06 15:10:38,698 [INFO] Single tick complete (GitHub Actions mode). State saved.

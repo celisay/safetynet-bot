@@ -3,13 +3,13 @@
     "ETHUSDT": {
       "symbol": "ETHUSDT",
       "opened_at": "2026-10-02T14:52:23+00:00",
-      "qty": 0.0073739328129591095,
-      "spent": 18.898582500000003,
-      "avg_entry": 2562.8905198033844,
-      "last_fill_price": 2430.005,
-      "safety_orders_used": 3,
-      "next_so_deviation_pct": 4.115999999999999,
-      "next_so_usdt": 11.103750000000002
+      "qty": 0.01220533563657001,
+      "spent": 29.9888985825,
+      "avg_entry": 2457.0318650350196,
+      "last_fill_price": 2295.465,
+      "safety_orders_used": 4,
+      "next_so_deviation_pct": 5.762399999999998,
+      "next_so_usdt": 16.655625
     },
     "BTCUSDT": {
       "symbol": "BTCUSDT",
@@ -467,5 +467,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 975.3618327590258
+  "paper_usdt": 964.2604152590258
 }

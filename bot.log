@@ -18694,3 +18694,19 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-11-10 09:46:59,077 [INFO] ETHUSDT px=2102.1850 avg=2124.0089 tp=2155.8690 sl=1869.1278 next_so=2062.8901 (SO 1/4)
 2026-11-10 09:46:59,077 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-11-10 17:27:40,664 [INFO] === CAPITAL RULES ===
+2026-11-10 17:27:40,664 [INFO] Total capital: 1000.00 USDT
+2026-11-10 17:27:40,664 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-11-10 17:27:40,664 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-11-10 17:27:40,664 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-11-10 17:27:40,664 [INFO] Max total exposure: 6.0% of capital
+2026-11-10 17:27:40,839 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 17:27:40).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-11-10 17:27:40,937 [INFO] BTCUSDT px=72972.7200 avg=78657.0085 tp=79836.8637 sl=69218.1675 next_so=70038.6848 (SO 4/4)
+2026-11-10 17:27:40,952 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 17:27:40).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-11-10 17:27:41,040 [INFO] ETHUSDT px=2021.8850 avg=2124.0089 tp=2155.8690 sl=1869.1278 next_so=2062.8901 (SO 1/4)
+2026-11-10 17:27:41,053 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 17:27:41).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-11-10 17:27:41,173 [INFO] NOTIFY: 🛟 SAFETY ORDER 2/4 ETHUSDT: bought 0.002438 @ 2021.8850. New avg 2079.0050
+2026-11-10 17:27:42,552 [INFO] Single tick complete (GitHub Actions mode). State saved.

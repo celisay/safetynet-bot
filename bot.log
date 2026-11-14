@@ -18876,3 +18876,19 @@ Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BT
 Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
 2026-11-13 22:22:25,817 [INFO] ETHUSDT px=1923.2900 avg=2018.9454 tp=2049.2296 sl=1776.6719 next_so=1852.5939 (SO 3/4)
 2026-11-13 22:22:25,817 [INFO] Single tick complete (GitHub Actions mode). State saved.
+2026-11-14 02:35:12,305 [INFO] === CAPITAL RULES ===
+2026-11-14 02:35:12,305 [INFO] Total capital: 1000.00 USDT
+2026-11-14 02:35:12,306 [INFO] Per-deal budget: 30.00 USDT (3.0% of capital)
+2026-11-14 02:35:12,306 [INFO] Base order: 3.29 USDT, up to 4 safety orders
+2026-11-14 02:35:12,306 [INFO] Worst-case loss per deal: 3.60 USDT (0.36% of capital)
+2026-11-14 02:35:12,306 [INFO] Max total exposure: 6.0% of capital
+2026-11-14 02:35:12,450 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 02:35:12).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-11-14 02:35:12,508 [INFO] BTCUSDT px=67347.7050 avg=68602.7250 tp=69631.7659 sl=60370.3980 next_so=67573.6841 (SO 0/4)
+2026-11-14 02:35:12,513 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 02:35:12).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=BTCUSDT.); trying Coinbase
+2026-11-14 02:35:12,556 [INFO] NOTIFY: 🛟 SAFETY ORDER 1/4 BTCUSDT: bought 0.000049 @ 67347.7050. New avg 67969.4222
+2026-11-14 02:35:12,908 [WARNING] Bybit price failed (You have breached the ip rate limit or your ip is from the usa. (ErrCode: 403) (ErrTime: 02:35:12).
+Request → GET https://api.bybit.com/v5/market/tickers: category=spot&symbol=ETHUSDT.); trying Coinbase
+2026-11-14 02:35:12,933 [INFO] ETHUSDT px=1897.9250 avg=2018.9454 tp=2049.2296 sl=1776.6719 next_so=1852.5939 (SO 3/4)
+2026-11-14 02:35:12,933 [INFO] Single tick complete (GitHub Actions mode). State saved.

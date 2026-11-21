@@ -14,13 +14,13 @@
     "ETHUSDT": {
       "symbol": "ETHUSDT",
       "opened_at": "2026-11-20T22:58:40+00:00",
-      "qty": 0.0020307826339480183,
-      "spent": 3.2867100000000002,
-      "avg_entry": 1618.445,
-      "last_fill_price": 1618.445,
-      "safety_orders_used": 0,
-      "next_so_deviation_pct": 1.5,
-      "next_so_usdt": 3.29
+      "qty": 0.00412183111339833,
+      "spent": 6.5734200000000005,
+      "avg_entry": 1594.7814985996374,
+      "last_fill_price": 1571.8,
+      "safety_orders_used": 1,
+      "next_so_deviation_pct": 2.0999999999999996,
+      "next_so_usdt": 4.9350000000000005
     }
   },
   "realized_pnl": -6.479003635637562,
@@ -497,5 +497,5 @@
     }
   ],
   "halted": false,
-  "paper_usdt": 959.8670471118655
+  "paper_usdt": 956.5770471118656
 }
